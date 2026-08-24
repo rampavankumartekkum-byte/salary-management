@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/salary_db
+    username: salary_user
+    password: salary_pass
+
+app:
+  cors:
+    allowed-origins: http://localhost:5173,http://localhost:3000
